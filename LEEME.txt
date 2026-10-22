@@ -1,0 +1,27 @@
+# MathBot — Asistente de Cálculo y Precálculo
+
+## Qué incluye
+- Fondo con la imagen matemática proporcionada.
+- Interfaz de escritorio con Tkinter.
+- Simplificación, ecuaciones, factorización, derivadas, integrales, límite en x→0 y gráficas.
+- Diez ejemplos iniciales y una práctica con retroalimentación.
+- Mensajes de error si una expresión no se puede interpretar.
+
+## Cómo ejecutarlo en Windows
+1. Instala Python 3.10 o superior desde https://www.python.org/downloads/
+2. Durante la instalación marca **Add Python to PATH**.
+3. Descomprime la carpeta en un lugar fácil de encontrar.
+4. Abre la terminal/CMD dentro de la carpeta del proyecto.
+5. Ejecuta:
+   `python -m pip install -r requirements.txt`
+6. Luego ejecuta:
+   `python mathbot.py`
+
+## Cómo escribir expresiones
+- Usa `x**2` o `x^2` para x al cuadrado.
+- Usa `2*x` para multiplicar (también acepta `2x`).
+- Funciones disponibles: `sin(x)`, `cos(x)`, `tan(x)`, `sqrt(x)`, `log(x)`, `exp(x)`.
+- Ecuaciones: escribe, por ejemplo, `2*x + 5 = 17`.
+
+## Importante
+La función de límite calcula actualmente el límite cuando x tiende a 0. El asistente es una base funcional para desarrollar y probar; revisen las respuestas y amplíen los módulos antes de presentarlo como producto final. Para publicar un enlace web gratuito, la aplicación de escritorio debe adaptarse a una aplicación web (por ejemplo, Streamlit).
